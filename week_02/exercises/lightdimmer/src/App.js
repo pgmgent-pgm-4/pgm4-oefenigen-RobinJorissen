@@ -1,10 +1,10 @@
 import './App.css';
-import MessageToggle from './components/MessageToggle';
+import DimmedLight from './components/light/DimmedLight';
 
 function App() {
   return (
     <div className="App">
-      <MessageToggle message="Hi, dit is mijn bericht."/>
+      <DimmedLight/>
     </div>
   );
 }
